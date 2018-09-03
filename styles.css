@@ -1,0 +1,159 @@
+/* imports */
+
+@import url(http://fonts.googleapis.com/css?family=Monteserrat:400,700);
+
+/* ______________THE HEADER CSS____________________ */
+
+
+body{
+  color: #555;
+  margin: 0;
+
+font-family: 'Monteserrat', sans-serif;
+
+}
+/* the whole header */
+#header {
+  background-color: #1abc9c;
+  height: 150px;
+  line-height: 150px;
+}
+/* this is changes all links <a> */
+#header a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em
+  padding-right: 20px;
+}
+/* this is the hover */
+#header a:hover {
+  color: #222;
+}
+
+#header-title {
+  display: block;
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+  padding-right: 20px;
+}
+
+#header-nav {
+  display: block;
+  float: right;
+  margin-top: 0;
+  padding-right: 20px;
+}
+
+#header-nav li {
+  display: inline;
+  padding-left: 20px;
+}
+
+.container , .index {
+  max-width: 1000px;
+  margin-left: 20px;
+}
+
+/* -------------body or post ------------------- */
+
+.post {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-left: 80px 0;
+}
+
+.post-author img {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+}
+
+.post-author span {
+  margin-left: 16px;
+}
+
+.post-date {
+  color: #d2d2d2;
+
+  font-size: 14px;
+  font-weight: bold;
+  text-transform:  uppercase;
+  letter-spacing: 0.1em;
+}
+/* this is the about page css */
+.post, .about{
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.post-author img,
+.about-author img {
+border-radius: 50%;
+
+}
+
+.container{
+  max-width: 100% ;
+  margin-left: 0 auto;
+}
+
+.container {
+  max-width: 100% ;
+  margin-left: 0 auto;
+}
+
+
+.about {
+  text-align: center;
+}
+
+h1,h2,h3,h4 {
+  color: #333;
+}
+
+p{
+  line-height: 1.5;
+}
+
+/* -------------THE FOOTER CSS------------------- */
+
+
+/* the whole footer */
+#footer{
+  background-color: #2f2f2f;
+  padding:50px 0;
+  max-width: 100%;
+}
+
+/* inline block lets block
+elements keep their widths and
+heights but lined them in a row */
+.column {
+  min-width: 250px;
+  display: inline-block;
+  vertical-align: top;
+
+}
+/* only the h4 in the footer  */
+#footer h4 {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+/* only the <p> in footer */
+#footer p {
+  color: white;
+}
+/* decorating the links on the footer */
+a {
+  color: #1abc9c;
+  text-decoration: none;
+}
+/* the hover  over link */
+
+a:hover {
+  color: #f6a623;
+}
